@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Student Data</h1>
+  <form>
+    <table>
+      <tr>
+        <th>Student Name:</th>
+        <td><input type="text" name="student_name" required></td>
+      </tr>
+      <tr>
+        <th>Father's Name:</th>
+        <td><input type="text" name="father_name" required></td>
+      </tr>
+      <tr>
+        <th>Mother's Name:</th>
+        <td><input type="text" name="mother_name" required></td>
+      </tr>
+      <tr>
+        <th>Date of Birth:</th>
+        <td><input type="date" name="date_of_birth" required></td>
+      </tr>
+      <tr>
+        <th>Address:</th>
+        <td><textarea name="address" required></textarea></td>
+      </tr>
+      <tr>
+        <th>Phone Number:</th>
+        <td><input type="number" name="phone_number" required></td>
+      </tr>
+      <tr>
+        <th>Email:</th>
+        <td><input type="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
