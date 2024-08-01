@@ -1,0 +1,92 @@
+<!-- Employee Registration Page -->
+
+<h1>Employee Registration</h1>
+
+<form id="employee-registration-form">
+  <!-- Personal Details -->
+  <h2>Personal Details</h2>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+  </div>
+  <div>
+    <label for="date-of-birth">Date of Birth:</label>
+    <input type="date" id="date-of-birth" name="date-of-birth" required>
+  </div>
+<div>
+<div class="gender-box">
+          <h3>Gender</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">prefer not to say</label>
+            </div>
+          </div>
+        </div>
+
+  <!-- Employment Details -->
+  <h2>Employment Details</h2>
+  <div>
+    <label for="designation">Designation:</label>
+    <select id="designation" name="designation" required>
+      <option value="">Select Designation</option>
+      <option value="Manager">Manager</option>
+      <option value="Team Lead">Team Lead</option>
+      <option value="Software Engineer">Software Engineer</option>
+      <option value="QA Engineer">QA Engineer</option>
+    </select>
+  </div>
+  <div>
+    <label for="department">Department:</label>
+    <select id="department" name="department" required>
+      <option value="">Select Department</option>
+      <option value="IT">IT</option>
+      <option value="Marketing">Marketing</option>
+           <option value="HR">HR</option>
+    </select>
+  </div>
+  <div>
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary" required>
+  </div>
+
+  <!-- Address -->
+  <h2>Address</h2>
+  <div>
+    <label for="street">Street:</label>
+    <input type="text" id="street" name="street" required>
+  </div>
+  <div>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+  </div>
+          
+
+  <div>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required>
+  </div>
+  <div>
+    <label for="zip">Zip:</label>
+    <input type="text" id="zip" name="zip" required>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="submit">Register Employee</button>
+</form>
